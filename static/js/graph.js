@@ -349,7 +349,8 @@ happyCounts
        .xUnits(dc.units.ordinal)
        .elasticY(true)
        .xAxisLabel("Year")
-       .yAxis().ticks(4);
+       .yAxis().ticks(4)
+       .legend(dc.legend().x(300).y(0).gap(5));
  
    resourceTypeChart
        .width(300)
